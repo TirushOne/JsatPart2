@@ -8,7 +8,7 @@ console.log(JSON.stringify(myMovie));
 
 // adding new properties
 myMovie.rating = 5;
-myMovie.summery = "World War II movie about the Normandy landings";
+myMovie.summary = "World War II movie about the Normandy landings";
 
 console.log(JSON.stringify(myMovie));
 
@@ -19,6 +19,8 @@ myMovie.year = 1962;
 console.log(JSON.stringify(myMovie));
 
 // remove the summery property
-delete myMovie.summery;
+delete myMovie.summary;
 
 console.log(JSON.stringify(myMovie));
+
+// obligitory comment (needed to create an extra branch to commit from)
